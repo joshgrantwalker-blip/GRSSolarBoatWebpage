@@ -45,8 +45,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-radius: 10%;
+  padding: 10rem;
+  border-radius: 5%;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -55,4 +55,11 @@ h1 {
 .video iframe {
   border-radius: inherit;
   border: none;
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin: 30px;
+  border-radius: 5%;
 }
