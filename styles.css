@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 h1 {
   color: rgb(255, 255, 255);
 }
@@ -17,7 +18,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* Flexbox to center content */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +30,7 @@ h1 {
 .hero-content h1 {
   font-size: 3.5rem;
 }
+
 .btn {
   margin-top: 1.5rem;
   display: inline-block;
@@ -52,6 +53,6 @@ h1 {
 }
 
 .video iframe {
-  border-radius: inherit; 
+  border-radius: inherit;
   border: none;
 }
