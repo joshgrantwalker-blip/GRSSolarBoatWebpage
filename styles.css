@@ -63,6 +63,7 @@ h1 {
   padding: 2rem;
   margin: 30px;
   border-radius: 5%;
+  color: rgb(89, 83, 166);
 }
 
 .gridA {
@@ -95,4 +96,34 @@ h1 {
   border-width: 10px;
   border-color: rgba(140, 124, 241, 0.5);
   border-radius: 15%;
+  color: rgb(90, 36, 140);
+}
+
+.infiniteScrollerContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.infiniteScrollerInner {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 15s linear infinite;
+}
+
+.infiniteScrollerInner img {
+  padding: 25px;
+  flex-shrink: 0;
+  border-radius: 9000px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.infiniteScrollerContainer:hover .infiniteScrollerInner {
+  animation-play-state: paused;
 }
