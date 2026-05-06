@@ -44,7 +44,7 @@ h1 {
   padding: 50px;
 }
 
-.btn {
+.btn1 {
   font-size: medium;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin-top: 1.5rem;
@@ -57,7 +57,20 @@ h1 {
     border-color 0.3s ease;
 }
 
-.btn:hover {
+.btn2 {
+  font-size: medium;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  margin-top: 0.75rem;
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1:hover {
   transform: scale(5);
   box-shadow: 0 10px 15px rgba(94, 121, 203, 0.693);
   z-index: 10;
