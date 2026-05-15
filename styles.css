@@ -57,19 +57,24 @@ h1 {
     border-color 0.3s ease;
 }
 
+.button2 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: center;
+}
+
 .btn2 {
   font-size: larger;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin-top: 0.75rem;
-  margin-left: 50%;
+  /*margin-left: 50%;*/
   margin-bottom: 5rem;
   display: inline-block;
   padding: 0.5rem 0.75rem;
   background: rgb(45, 121, 97);
   color: white;
   border-radius: 8px;
-  justify-content: center;
-  align-items: center;
 }
 
 .btn1:hover {
